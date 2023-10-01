@@ -11,23 +11,23 @@ const seedDatabase = async () => {
     await Thought.deleteMany();
 
     const user1 = await User.create({
-      username: 'user1',
-      email: 'user1@example.com',
+      username: 'test',
+      email: 'test@subject.com',
     });
 
     const user2 = await User.create({
-      username: 'user2',
-      email: 'user2@example.com',
+      username: 'Lexin',
+      email: 'Lexin@Lexin.com',
     });
 
     const thought1 = await Thought.create({
-      thoughtText: 'This is thought 1',
-      username: 'user1',
+      thoughtText: 'I am a test subject',
+      username: 'test',
     });
 
     const thought2 = await Thought.create({
-      thoughtText: 'This is thought 2',
-      username: 'user2',
+      thoughtText: 'I am a real test subject',
+      username: 'Lexin',
     });
 
     // Add thoughts to user's thoughts array

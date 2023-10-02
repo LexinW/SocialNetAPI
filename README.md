@@ -1,5 +1,9 @@
 # SocialNetAPI
 
+# LINKS
+VIDEO DEMO: https://drive.google.com/file/d/1UivJtETOk9BjdFv0obpLuTuxFvwF6-iB/view
+Github: https://github.com/LexinW/SocialNetAPI
+
 # 18 NoSQL: Social Network API
 
 ## Your Task
